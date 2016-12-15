@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-sources>
+	<data-source id="mssql_ms-158fc45f77b-6b57aa48e450c29d" provider="generic" driver="mssql_ms" name="MS SQL Server - LOCALDB" create-date="1481701615331" update-date="1481701694453" login-date="1481701616497" save-password="true" show-system-objects="true" read-only="false">
+		<connection host="CHARLEYCHANG" port="1433" server="" database="" url="jdbc:sqlserver://CHARLEYCHANG:1433" user="sa" password="QhUHOgByZSxl8w==" type="dev">
+			<network-handler type="PROXY" id="socks_proxy" enabled="false" user="" save-password="false">
+				<property name="socks-port" value="1080"/>
+			</network-handler>
+			<network-handler type="TUNNEL" id="ssh_tunnel" enabled="false" user="" save-password="false">
+				<property name="sshConnectTimeout" value="10000"/>
+				<property name="port" value="22"/>
+				<property name="authType" value="PASSWORD"/>
+			</network-handler>
+		</connection>
+	</data-source>
+</data-sources>

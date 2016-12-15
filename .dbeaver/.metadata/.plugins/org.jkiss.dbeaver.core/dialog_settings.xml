@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="DriverDownload">
+	</section>
+	<section name="DBeaver.ActiveWizardDialog.NewConnectionWizard">
+		<item value="581" key="DIALOG_WIDTH"/>
+		<item value="1|微軟正黑體|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|微軟正黑體" key="DIALOG_FONT_NAME"/>
+		<item value="549" key="DIALOG_HEIGHT"/>
+		<item value="110" key="DIALOG_X_ORIGIN"/>
+		<item value="-25" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="DBeaver.DriverDownloadDialog">
+		<item value="525" key="DIALOG_WIDTH"/>
+		<item value="1|微軟正黑體|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|微軟正黑體" key="DIALOG_FONT_NAME"/>
+		<item value="495" key="DIALOG_HEIGHT"/>
+		<item value="0" key="DIALOG_X_ORIGIN"/>
+		<item value="0" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="projectExplorer.columns">
+		<section name="Type">
+			<item value="false" key="visible"/>
+			<item value="0" key="width"/>
+			<item value="5" key="order"/>
+		</section>
+		<section name="Modified">
+			<item value="false" key="visible"/>
+			<item value="0" key="width"/>
+			<item value="4" key="order"/>
+		</section>
+		<section name="Size">
+			<item value="false" key="visible"/>
+			<item value="0" key="width"/>
+			<item value="3" key="order"/>
+		</section>
+		<section name="Preview">
+			<item value="false" key="visible"/>
+			<item value="0" key="width"/>
+			<item value="2" key="order"/>
+		</section>
+		<section name="Name">
+			<item value="true" key="visible"/>
+			<item value="97" key="width"/>
+			<item value="0" key="order"/>
+		</section>
+		<section name="DataSource">
+			<item value="true" key="visible"/>
+			<item value="112" key="width"/>
+			<item value="1" key="order"/>
+		</section>
+	</section>
+</section>

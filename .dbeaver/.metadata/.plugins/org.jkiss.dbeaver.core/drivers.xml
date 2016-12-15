@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<drivers>
+	<provider id="wmi"/>
+	<provider id="db2"/>
+	<provider id="exasol"/>
+	<provider id="generic">
+		<driver id="mssql" category="MS SQL Server" custom="false" embedded="false" name="jTDS driver" class="net.sourceforge.jtds.jdbc.Driver" url="jdbc:jtds:sqlserver://{host}[:{port}][/{database}]" port="1433" description="jTDS SQL Server driver">
+			<library type="jar" path="maven:/net.sourceforge.jtds:jtds:RELEASE" custom="false">
+				<file id="net.sourceforge.jtds:jtds" version="1.3.1" path="${workspace}\.metadata\.plugins\org.jkiss.dbeaver.core\maven\maven-central\net.sourceforge.jtds\jtds-1.3.1.jar"/>
+			</library>
+			<library type="lib" path="repo:/drivers/jtds/SSO/x86/ntlmauth.dll" custom="false">
+				<file id="repo:/drivers/jtds/SSO/x86/ntlmauth.dll" path="${workspace}\.metadata\.plugins\org.jkiss.dbeaver.core\drivers\jtds\SSO\x86\ntlmauth.dll"/>
+			</library>
+			<library type="lib" path="repo:/drivers/jtds/SSO/x64/ntlmauth.dll" custom="false"/>
+		</driver>
+		<driver id="mssql_ms" category="MS SQL Server" custom="false" embedded="false" name="Microsoft Driver" class="com.microsoft.sqlserver.jdbc.SQLServerDriver" url="jdbc:sqlserver://{host}[:{port}][;databaseName={database}]" port="1433" description="Microsoft JDBC Driver for SQL Server">
+			<library type="jar" path="repo:/drivers/mssql/sqljdbc4.jar" custom="false">
+				<file id="repo:/drivers/mssql/sqljdbc4.jar" path="${workspace}\.metadata\.plugins\org.jkiss.dbeaver.core\drivers\mssql\sqljdbc4.jar"/>
+			</library>
+			<library type="lib" path="repo:/drivers/mssql/auth/x86/sqljdbc_auth.dll" custom="false">
+				<file id="repo:/drivers/mssql/auth/x86/sqljdbc_auth.dll" path="${workspace}\.metadata\.plugins\org.jkiss.dbeaver.core\drivers\mssql\auth\x86\sqljdbc_auth.dll"/>
+			</library>
+			<library type="lib" path="repo:/drivers/mssql/auth/x64/sqljdbc_auth.dll" custom="false"/>
+			<library type="lib" path="repo:/drivers/mssql/xa/x86/sqljdbc_xa.dll" custom="false">
+				<file id="repo:/drivers/mssql/xa/x86/sqljdbc_xa.dll" path="${workspace}\.metadata\.plugins\org.jkiss.dbeaver.core\drivers\mssql\xa\x86\sqljdbc_xa.dll"/>
+			</library>
+			<library type="lib" path="repo:/drivers/mssql/xa/x64/sqljdbc_xa.dll" custom="false"/>
+			<library type="license" path="repo:/drivers/mssql/LICENSE.txt" custom="false">
+				<file id="repo:/drivers/mssql/LICENSE.txt" path="${workspace}\.metadata\.plugins\org.jkiss.dbeaver.core\drivers\mssql\LICENSE.txt"/>
+			</library>
+		</driver>
+	</provider>
+	<provider id="mysql"/>
+	<provider id="oracle"/>
+	<provider id="postgresql"/>
+</drivers>
